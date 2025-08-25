@@ -1,0 +1,34 @@
+.advantages{
+  &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0px rem(227px);
+    @media#{media('<',d)} {
+      padding: 0px rem(50px);
+    }
+  }
+}
+
+.advantage{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__title{
+    margin-bottom: 15px;
+  }
+
+  &__img svg{
+    width: 5vw;
+    max-width: 70px;
+    min-width: 40px;
+  }
+
+  svg{
+    color: var(--primary-color);
+  }
+}

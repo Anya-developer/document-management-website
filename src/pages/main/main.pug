@@ -1,0 +1,19 @@
+extends ../../layout/layout
+
+block variables
+  -
+    const pageName = 'main'
+    const pageTitle = 'Main'
+
+block content
+  main(class="no-padding-top", data-barba='container', data-barba-namespace=pageName)
+    +hero
+    +advantages
+    +main-about
+    +tarifs
+    +experience
+    +partners-block
+    +main-blog
+    +main-video
+    +main-accordion
+    +subscribe-block.bg-color-none

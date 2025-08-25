@@ -1,0 +1,35 @@
+.partners{
+  &__title{
+    text-align: center;
+    margin-bottom: 46px;
+  }
+
+  &__wrapper{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
+
+.partners-swiper{
+  height: auto;
+  overflow: hidden;
+
+  &__slide{
+    display: flex;
+    align-items: center;
+    width: rem(200px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.swiper-pagination-bullet{
+  border: 2px solid var(--primary-color);
+}
+
+.partners-swiper-container{
+  position: static;
+}

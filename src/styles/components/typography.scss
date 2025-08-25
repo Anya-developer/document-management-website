@@ -1,0 +1,75 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --base-font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-family: var(--titles-font-family);
+  font-weight: var(--base-font-weight);
+  line-height: 1.2;
+}
+
+.first-title {
+  --base-font-family: 'IBM Plex Serif';
+  font-size: rem(40px);
+  @media#{media('<',d)} {
+    font-size: rem(30px);
+  }
+  @media#{media('<',m)} {
+    font-size: rem(25px);
+  }
+}
+
+.second-title {
+  font-size: rem(40px);
+  @media#{media('<',d)} {
+    font-size: rem(30px);
+  }
+  @media#{media('<',m)} {
+    font-size: rem(20px);
+  }
+}
+
+.third-title {
+  font-family: var(--base-font-family);
+  font-size: rem(24px);
+  @media#{media('<',d)} {
+    font-size: rem(20px);
+  }
+  @media#{media('<',m)} {
+    font-size: rem(16px);
+  }
+}
+
+.text-20 {
+  font-size: rem(20px);
+}
+
+.text-18 {
+  font-size: rem(18px);
+}
+
+.text-16 {
+  font-size: rem(16px);
+}
+
+.text-14 {
+  font-size: 14px;
+  @media#{media('>',ll)} {
+    font-size: rem(14px);
+  }
+  @media#{media('<',t)} {
+    font-size: rem(12px);
+  }
+}
+
+.text-12 {
+  font-size: rem(12px);
+}
+
+.page-title{
+  margin-bottom: 25px;
+}

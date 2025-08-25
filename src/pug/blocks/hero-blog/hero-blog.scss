@@ -1,0 +1,31 @@
+.hero-blog{
+  &__title{
+    margin-bottom: 20px;
+  }
+
+  &__time{
+    margin-bottom: 12px;
+  }
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 43px;
+    @media#{media('<',t)} {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__img{
+    width: rem(731px);
+  }
+
+  &__text-block{
+    width: rem(458px);
+  }
+
+  &__text{
+    margin-bottom: 30px;
+  }
+}
