@@ -46,15 +46,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: rem(105px);
   height: rem(105px);
   border-radius: 50%;
+  color: var(--primary-color);
   transition: 0.5s ease-in-out;
-  &::before{
-    content: url(./images/play-button.svg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -50%);
-  }
+  transform: translate(-50%, -50%);
 }
