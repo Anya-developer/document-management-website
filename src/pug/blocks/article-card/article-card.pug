@@ -1,7 +1,7 @@
 mixin article-card(data)
   .article-card&attributes(attributes)
     .article-card__image
-      img(src="../src/images/" + data.src, alt="")
+      img(src="./images/" + data.src, alt="")
     .article-card__body
       .article-card__time
         time(datetime= data.date)= data.date
