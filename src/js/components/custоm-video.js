@@ -8,8 +8,8 @@ const videoJsInit =() =>{
       video.innerHTML = `<video class="main-video__item" preload="none" controls autoplay="1" > <source src="${videoSrc}" type="video/mp4"><p>Ваш браузер не поддерживает встроеннoе видео.</p>`;
       item.parentNode.replaceChild(video, event.target);
       console.log(event.target);
-    })
-  })
-}
+    });
+  });
+};
 
 export {videoJsInit};

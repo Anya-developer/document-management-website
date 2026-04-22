@@ -12,7 +12,7 @@
       {
         "except": ["first-nested"],
         "ignoreAtRules": ["else if", "else", "use", "import", "include"]
-      }
+      } 
     ],
     "rule-empty-line-before": [
       "always",

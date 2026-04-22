@@ -1,4 +1,10 @@
 .tarifs{
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
   &__list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
@@ -9,7 +15,7 @@
 
   .tarif{
     --base-font-weight: 500;
-    padding: 32px;
+    padding: 30px;
     background-color: var(--card-bg-color);
 
     &__title{

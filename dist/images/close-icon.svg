@@ -1,8 +1,1 @@
-<svg width="14.142578" height="14.142090" viewBox="0 0 14.1426 14.1421" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<path id="Vector 226 (Stroke)" d="M0.7 0.7C1.09 0.31 1.73 0.31 2.12 0.7L13.43 12.02C13.82 12.41 13.82 13.04 13.43 13.43C13.04 13.82 12.41 13.82 12.02 13.43L0.7 2.12C0.31 1.73 0.31 1.09 0.7 0.7Z" fill="#1064E5" fill-opacity="1.000000" fill-rule="evenodd"/>
-	<path id="Vector 226 (Stroke)" d="M13.43 0.7C13.04 0.31 12.41 0.31 12.02 0.7L0.7 12.02C0.31 12.41 0.31 13.04 0.7 13.43C1.09 13.82 1.73 13.82 2.12 13.43L13.43 2.12C13.82 1.73 13.82 1.09 13.43 0.7Z" fill="#1064E5" fill-opacity="1.000000" fill-rule="evenodd"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="14.143" height="14.142" fill="none"><path fill="#1064E5" fill-rule="evenodd" d="M.7.7C1.09.31 1.73.31 2.12.7l11.31 11.32a.996.996 0 1 1-1.41 1.41L.7 2.12C.31 1.73.31 1.09.7.7"/><path fill="#1064E5" fill-rule="evenodd" d="M13.43.7a.996.996 0 0 0-1.41 0L.7 12.02a.996.996 0 0 0 0 1.41c.39.39 1.03.39 1.42 0L13.43 2.12c.39-.39.39-1.03 0-1.42"/></svg>

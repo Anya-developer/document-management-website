@@ -2,7 +2,7 @@
   "name": "vite-bem-template-copy",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "", 
   "scripts": {
     "dev": "gulp pugMixins && vite --host",
     "build": "gulp pugMixins && vite build && node .change-path.js",

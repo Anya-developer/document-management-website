@@ -4,10 +4,10 @@ block variables
   -
     const pageName = 'contacts'
     const pageTitle = 'contacts'
-    const LinksObj = [["Главная", "main"]]
+    const linksObj = [["Главная", "main"]]
 
 block content
   main(data-barba='container' data-barba-namespace=pageName)
-    +breadcrumb(LinksObj, "Контакты")
+    +breadcrumb(linksObj, "Контакты")
     +contacts-block
     +contacts-form

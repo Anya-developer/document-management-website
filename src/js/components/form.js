@@ -21,18 +21,18 @@ const formInit =() =>{
             }
           }
           errorMessage.style.display = "block";
-          formElem.classList.add("standart-input--invalid")
+          formElem.classList.add("standart-input--invalid");
           event.preventDefault();
         }else{
-          formElem.classList.add("standart-input--valid")
+          formElem.classList.add("standart-input--valid");
         }
         window.addEventListener('click', function (e) {
           if(e.target !== sentButton && formElem.value === "") {
             errorMessage.style.display = "none";
             if(formElem.classList.contains('standart-input--invalid')){
-              formElem.classList.remove("standart-input--invalid")
+              formElem.classList.remove("standart-input--invalid");
             }else if(formElem.classList.contains('standart-input--valid')){
-              formElem.classList.remove("standart-input--valid")
+              formElem.classList.remove("standart-input--valid");
             }
           }
         });
@@ -40,15 +40,15 @@ const formInit =() =>{
         formElem.addEventListener('input', () => {
           if(formElem.value == ""){
             if(formElem.classList.contains('standart-input--invalid')){
-              formElem.classList.remove("standart-input--invalid")
+              formElem.classList.remove("standart-input--invalid");
               errorMessage.style.display = "none";
             }else if(formElem.classList.contains('standart-input--valid')){
-              formElem.classList.remove("standart-input--valid")
+              formElem.classList.remove("standart-input--valid");
             }
           }
         });
-      })
-    })
+      });
+    });
   });
 
   inputElems.forEach((inputElement) => {

@@ -7,6 +7,6 @@ const fixedHeader = () => {
       header.classList.remove("header--bg-color");
     }
   });
-}
+};
 
 export {fixedHeader};

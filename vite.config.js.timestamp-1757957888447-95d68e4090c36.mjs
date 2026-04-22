@@ -1,5 +1,5 @@
 // vite.config.js
-import path, { resolve } from "node:path";
+import path, { resolve } from "node:path"; 
 import url from "node:url";
 import { defineConfig } from "file:///C:/Users/Admin/Desktop/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/signy-website/node_modules/vite/dist/node/index.js";
 import viteEslint from "file:///C:/Users/Admin/Desktop/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/signy-website/node_modules/vite-plugin-eslint/dist/index.mjs";

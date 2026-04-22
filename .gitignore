@@ -7,7 +7,7 @@ Thumbs.db
 *.sublime*
 .vscode
 
-# Вспомогательные файлы
+# Вспомогательные файлы 
 *.log*
 .stylelintcache
 node_modules/

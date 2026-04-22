@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin'
+import plugin from 'tailwindcss/plugin';
 
 export default {
   content: ['./src/**/*.{pug,js,ts,jsx,tsx}'],

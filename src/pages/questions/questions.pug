@@ -4,10 +4,10 @@ block variables
   -
     const pageName = 'questions'
     const pageTitle = 'questions'
-    const LinksObj = [["Главная", "main"]]
+    const linksObj = [["Главная", "main"]]
 
 block content
   main(data-barba='container' data-barba-namespace=pageName)
-    +breadcrumb(LinksObj, "Популярные вопросы")
+    +breadcrumb(linksObj, "Популярные вопросы")
     +popular-questions
     +questions-form

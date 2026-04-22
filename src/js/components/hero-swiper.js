@@ -16,7 +16,7 @@ const heroSwiperInit = () => {
     },
 
     autoplay: {
-      delay: 5000,
+      delay: 4000,
     },
 
     pagination: {

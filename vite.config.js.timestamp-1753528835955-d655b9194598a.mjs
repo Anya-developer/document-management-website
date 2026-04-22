@@ -1,4 +1,4 @@
-// vite.config.js
+// vite.config.js 
 import path, { resolve } from "node:path";
 import url from "node:url";
 import { defineConfig } from "file:///C:/Users/Admin/Desktop/git-growup-student/Git-growup-student/node_modules/vite/dist/node/index.js";

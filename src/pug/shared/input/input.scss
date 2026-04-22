@@ -14,6 +14,7 @@
   &--invalid{
     border: 1px solid #B70101;
   }
+
   &--invalid + .validity-icon::before{
     content: "";
     background-image: url("../images/invalid-icon.svg");
@@ -66,7 +67,6 @@
 @media screen and (max-width: 768px) {
   .standart-input{
     width: 100%;
-
     &-wrapper{
       width: 100%;
     }

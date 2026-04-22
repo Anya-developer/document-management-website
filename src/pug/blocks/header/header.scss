@@ -59,7 +59,7 @@
   &__menu-list {
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 35px;
     @media#{media('<',d)} {
       gap: 15px;
     }
@@ -97,13 +97,19 @@
     }
   }
 
-  &__item{
+  &__item {
     min-width: 160px;
     background: #ffffff;
     cursor: pointer;
     &:hover {
       background: #E2EDFB;
     }
+  }
+
+  &__link-wrapper{
+    display: inline-block;
+    position: relative;
+    z-index: 100;
   }
 
   &__link{

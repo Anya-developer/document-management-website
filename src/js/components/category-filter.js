@@ -24,19 +24,19 @@ const categoryFilterInit = (filterWrapper) => {
           elem.classList.add("article-card--hidden");
         }
       });
-      const attributeName = item.getAttribute('data-tag')
+      const attributeName = item.getAttribute('data-tag');
       if(attributeName === "all"){
         articleItem.forEach((elem) =>{
           requestAnimationFrame(()=>{
-            elem.classList.remove("article-card--hidden")
-          })
+            elem.classList.remove("article-card--hidden");
+          });
         });
       }else{
         let resultItem = document.querySelectorAll(`.${attributeName}`);
         resultItem.forEach((elem)=>{
           requestAnimationFrame(()=>{
             elem.classList.remove("article-card--hidden");
-          })
+          });
         });
       }
     });

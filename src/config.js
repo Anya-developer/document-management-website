@@ -1,1 +1,1 @@
-export const FILE_PATH_IMAGES = './images'
+export const FILE_PATH_IMAGES = './images';

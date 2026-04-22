@@ -6,7 +6,7 @@
   "requireSpecificAttributes": [{ "img": ["alt"] }],
   "validateIndentation": 2,
   "validateMultiLineAttributes": {
-    "maximum": 3
+    "maximum": 3 
   },
   "disallowInlineJavaScript": true,
   "disallowInlineStyles": true,

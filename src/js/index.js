@@ -1,5 +1,5 @@
-import 'lazysizes'
-import 'virtual:svg-icons-register'
+import 'lazysizes';
+import 'virtual:svg-icons-register';
 import {fixedHeader} from "../pug/blocks/header/header.js";
 import {dropDownMenu} from "./components/drop-down-menu";
 import {selectMenu} from "./components/select";
@@ -15,10 +15,10 @@ import {heroSwiperInit} from "./components/hero-swiper";
 import {backToTop} from "./components/back-to-top";
 import {fullScreenVideoInit} from "./components/full-screen-video";
 
-import '../styles/style.scss'
+import '../styles/style.scss';
 
 document.addEventListener('DOMContentLoaded', function () {
-  commonFunction()
+  commonFunction();
 })
 
 export const commonFunction = () => {
@@ -38,5 +38,5 @@ export const commonFunction = () => {
   categoryFilterInit('.drop-down__filter');
   openTextInit();
   videoJsInit();
-  fullScreenVideoInit()
-}
+  fullScreenVideoInit();
+};

@@ -4,10 +4,10 @@ block variables
   -
     const pageName = 'post'
     const pageTitle = 'post'
-    const LinksObj = [["Главная", "main"], ["Блог", "blog"]]
+    const linksObj = [["Главная", "main"], ["Блог", "blog"]]
 
 block content
   main(data-barba='container' data-barba-namespace=pageName)
-    +breadcrumb(LinksObj, "Название статьи")
+    +breadcrumb(linksObj, "Название статьи")
     +post-content
     +subscribe-block

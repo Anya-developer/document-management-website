@@ -1,7 +1,7 @@
 const openModals =() =>{
   const openButtons = document.querySelectorAll(".modal-open");
   const body = document.querySelector("body");
-  if(!openButtons) return
+  if(!openButtons) return;
   openButtons.forEach(openButton => {
     openButton.addEventListener("click", () => {
       let wrapperSelector = openButton.getAttribute('data-modal-btn');

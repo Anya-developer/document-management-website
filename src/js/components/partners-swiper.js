@@ -7,7 +7,7 @@ const partnersSwiperInit = () => {
   const partnersSwiper = new Swiper(".partners-swiper", {
     slidesPerView: 3,
     spaceBetween: 50,
-    speed: 2500,
+    speed: 2600,
     arrows: false,
 
     pagination: {

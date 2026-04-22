@@ -18,9 +18,9 @@ const generatePugMixins = () => {
       mixinsList += `include ${blockName}\n`
     }
     fs.writeFileSync('src/pug/mixins.pug', mixinsList)
-    callback(undefined, file)
-  })
-}
+    callback(undefined, file);
+  });
+};
 
 function pugMixins() {
   return gulp

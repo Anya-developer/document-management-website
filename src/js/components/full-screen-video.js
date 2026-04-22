@@ -9,7 +9,7 @@ const fullScreenVideoInit =() =>{
   videoWrappers.forEach(item => {
     item.addEventListener('click', function (event) {
       body.classList.add("hidden-scroll");
-      wrapper.classList.add("wrapper-overlay--active")
+      wrapper.classList.add("wrapper-overlay--active");
       video = document.createElement('div');
       video.classList.add("video-item");
       let videoSrc = event.target.getAttribute('data-video');
@@ -19,20 +19,20 @@ const fullScreenVideoInit =() =>{
       console.log("создать");
       closeButton.addEventListener("click", () => {
         body.classList.remove("hidden-scroll");
-        wrapper.classList.remove("wrapper-overlay--active")
+        wrapper.classList.remove("wrapper-overlay--active");
         video.remove()
         closeButton.classList.remove("video-close--active");
       });
-    })
-  })
+    });
+  });
 
   window.addEventListener('click', function (e) {
-    if(!document.querySelector(".video-item")) return
+    if(!document.querySelector(".video-item")) return;
     console.log(e.target);
     if(!e.target.closest('.main-video__item') && e.target !== video.previousElementSibling) {
       body.classList.remove("hidden-scroll");
-      wrapper.classList.remove("wrapper-overlay--active")
-      video.remove()
+      wrapper.classList.remove("wrapper-overlay--active");
+      video.remove();
       closeButton.classList.remove("video-close--active");
     }
   });

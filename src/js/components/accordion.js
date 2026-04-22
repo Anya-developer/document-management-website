@@ -3,7 +3,7 @@ const accordion = () => {
   let allElems = document.querySelectorAll('.accordion__body');
 
   allElems.forEach((bodyElem)=>{
-    bodyElem.classList.add('accordion__body--hidden')
+    bodyElem.classList.add('accordion__body--hidden');
   });
 
   allTitles.forEach((elem)=>{

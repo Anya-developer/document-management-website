@@ -18,7 +18,7 @@
       font-size: 24px;
       font-weight: bold;
       float: left;
-      color: var(--primary-color);;
+      color: var(--primary-color);
     }
 
     &--left-icon{
@@ -26,7 +26,7 @@
       justify-content: left;
       margin-left: 0;
       margin-bottom: 20px;
-      
+
       &::before{
         margin-left: 5px;
       }

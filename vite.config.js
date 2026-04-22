@@ -9,9 +9,9 @@ import viteSassGlob from 'vite-plugin-sass-glob-import'
 import viteStylelint from 'vite-plugin-stylelint'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 
-const root = resolve(path.dirname(url.fileURLToPath(import.meta.url)), 'src')
-const outDir = resolve(path.dirname(url.fileURLToPath(import.meta.url)), 'dist')
-const timestamp = Date.now()
+const root = resolve(path.dirname(url.fileURLToPath(import.meta.url)), 'src');
+const outDir = resolve(path.dirname(url.fileURLToPath(import.meta.url)), 'dist');
+const timestamp = Date.now();
 
 const isBackBuild = process.env.BACK_BUILD === 'true'
 

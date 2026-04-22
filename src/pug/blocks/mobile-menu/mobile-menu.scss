@@ -83,7 +83,7 @@
 
   &__line{
     width: 100%;
-    border: 1px solid #1064E5;
+    border: 1px solid var(--primary-color);
   }
 
   &__lang{
@@ -111,7 +111,7 @@
   path{
     fill: none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: #1064E5;
+    stroke: var(--primary-color);
     stroke-width: 3;
     stroke-linecap: round;
   }

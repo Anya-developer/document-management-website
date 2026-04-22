@@ -8,7 +8,7 @@
 # на https://editorconfig.org и в разделе «Download a Plugin»
 # скачайте дополнение для вашего редактора.
 
-# Корневой файл EditorConfig
+# Корневой файл EditorConfig 
 root = true
 
 # Для всех файлов используем unix-совместимые переносы строк

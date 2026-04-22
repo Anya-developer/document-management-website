@@ -5,7 +5,7 @@
   --button-br-radius: 50px;
   --button-font-size: 14px;
   --hover-bg-color: transparent;
-  --hover-br-color: 2px solid var(--blue);
+  --hover-br-color: 2px solid var(--primary-color);
   --hover-text-color: var(--text-color);
 
   display: flex;
@@ -21,7 +21,7 @@
 
   &--border{
     --button-bg-color: transparent;
-    --hover-bg-color: var(--blue);
+    --hover-bg-color: var(--primary-color);
     --hover-text-color: #ffffff;
     color: var(--text-color);
   }
