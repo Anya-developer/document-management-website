@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>404</title>
+    <title>prices</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta name="theme-color" content="#4285f4">
@@ -228,17 +228,89 @@
           </div>
         </div>
       </div>
-      <main data-barba="container" data-barba-namespace="404">
-        <section class="error-content">
-          <div class="error-content__fon"><img src="./images/404-fon.png" alt=""/></div>
+      <main data-barba="container" data-barba-namespace="prices">
+        <div class="breadcrumb text-12">
+          <div class="container breadcrumb__wrapper">
+            <ul class="breadcrumb__list">
+              <li class="breadcrumb__item"><a class="link-element" href="main.html">Главная</a></li>
+            </ul><span>Название статьи</span>
+          </div>
+        </div>
+        <section class="tarifs">
           <div class="container">
-            <div class="error-content__wrapper">
-              <div class="error-content__image"><img src="./images/404-img.png" alt=""/></div>
-              <div class="error-content__text">
-                <p>Мы честно старались найти, но этой страницы по всей видимости не существует</p>
+            <h2 class="second-title tarifs__title">Пакеты цифровых подписей</h2>
+            <ul class="tarifs__list">
+              <li class="tarifs__item tarif">
+                <div class="tarif__wrapper">
+                  <h3 class="third-title tarif__title">Demo</h3><span class="tarif__subtitle">30 документoв</span>
+                  <div class="tarif__price-block"><span class="tarif__price tarif__price--bold">0</span><span class="tarif__price">руб/месяц</span></div>
+                  <button class="button tarif__button" type="button"><span class="button__body">Зарегистрироваться</span></button>
+                </div>
+              </li>
+              <li class="tarifs__item tarif">
+                <div class="tarif__wrapper">
+                  <h3 class="third-title tarif__title">Business</h3><span class="tarif__subtitle">1 000 документoв</span>
+                  <div class="tarif__price-block"><span class="tarif__price tarif__price--bold">5 000</span><span class="tarif__price">руб/год</span></div>
+                  <button class="button tarif__button" type="button"><span class="button__body">Закакзать</span></button>
+                </div>
+              </li>
+              <li class="tarifs__item tarif">
+                <div class="tarif__wrapper">
+                  <h3 class="third-title tarif__title">Pro</h3><span class="tarif__subtitle">10 000 документoв</span>
+                  <div class="tarif__price-block"><span class="tarif__price tarif__price--bold">9 000</span><span class="tarif__price">руб/год</span></div>
+                  <button class="button tarif__button" type="button"><span class="button__body">Закакзать</span></button>
+                </div>
+              </li>
+              <li class="tarifs__item tarif">
+                <div class="tarif__wrapper">
+                  <h3 class="third-title tarif__title">Individual</h3><span class="tarif__subtitle tarif__subtitle--margin-b">неограниченное количество документoв</span>
+                  <button class="button tarif__button" type="button"><span class="button__body">Связаться с нами</span></button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="questions-form">
+          <div class="container questions-form__container">
+            <h2 class="second-title questions-form__title">Не нашли ответа на интересующий вопрос?</h2>
+            <p class="questions-form__subtitle">Заполни форму и наши менеджеры свяжутся с тобой</p>
+            <form class="main-form questions-form__item" novalidate="novalidate">
+              <div class="main-form__row">
+                <label class="main-form__label" for="name">Имя:</label>
+                <div class="standart-input-wrapper">
+                  <div class="standart-input-item">
+                    <input class="standart-input name-input" type="text" placeholder="Иван" name="name" id="name" required="required" pattern="[A-Za-zА-Яа-яЁё]{2,}"/><span class="validity-icon"></span>
+                  </div>
+                  <div class="standart-input__error"></div>
+                </div>
               </div>
-              <div class="error-content__button"><a class="link-element error-content__link" href="main.html">НА ГЛАВНУЮ</a></div>
-            </div>
+              <div class="main-form__row">
+                <label class="main-form__label" for="email">Электронная почта:</label>
+                <div class="standart-input-wrapper">
+                  <div class="standart-input-item">
+                    <input class="standart-input email-input" type="email" placeholder="ivan@mail.ru" name="email" id="email" required="required"/><span class="validity-icon"></span>
+                  </div>
+                  <div class="standart-input__error"></div>
+                </div>
+              </div>
+              <div class="main-form__row">
+                <label class="main-form__label" for="phone">Телефон:</label>
+                <div class="standart-input-wrapper">
+                  <div class="standart-input-item">
+                    <input class="standart-input phone-input" type="text" placeholder="+7945 056 14 45" name="phone" id="phone" required="required" pattern="^[+][0-9]{6,}"/><span class="validity-icon"></span>
+                  </div>
+                  <div class="standart-input__error"></div>
+                </div>
+              </div>
+              <div class="main-form__row">
+                <label class="main-form__label" for="story">Твой вопрос:</label>
+                <div class="standart-textarea-wrapper">
+                  <textarea class="standart-textarea" id="story" name="story" rows="5" cols="50" placeholder="введите тут"></textarea><span class="validity-icon"></span>
+                </div>
+                <div class="standart-input__error"></div>
+              </div>
+              <button class="button form-button main-form__button" type="submit"><span class="button__body">ОТПРАВИТЬ</span></button>
+            </form>
           </div>
         </section>
       </main>
@@ -275,4 +347,4 @@
       </footer>
     </div>
   </body>
-</html>
+</html> 
